@@ -2,6 +2,7 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import FeaturedSeries from "@/components/FeaturedSeries";
+import YouTube from "@/components/YouTube";
 import Articles from "@/components/Articles";
 import Newsletter from "@/components/Newsletter";
 import Contact from "@/components/Contact";
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <About />
         <FeaturedSeries />
+        <YouTube />
         <Articles />
         <Newsletter />
         <Contact formId={FORMSPREE_ID} />
