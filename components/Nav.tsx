@@ -35,6 +35,7 @@ export default function Nav() {
             { label: "About", href: "#about" },
             { label: "Articles", href: "#articles" },
             { label: "Newsletter", href: "#newsletter" },
+            { label: "Contact", href: "#contact" },
           ].map((item) => (
             <a
               key={item.label}
@@ -73,6 +74,7 @@ export default function Nav() {
             { label: "About", href: "#about" },
             { label: "Articles", href: "#articles" },
             { label: "Newsletter", href: "#newsletter" },
+            { label: "Contact", href: "#contact" },
           ].map((item) => (
             <a
               key={item.label}
