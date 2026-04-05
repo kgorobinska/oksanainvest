@@ -91,11 +91,11 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        {/* Google Analytics — replace GA_MEASUREMENT_ID with your real G-XXXXXXXXXX */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID" />
+        {/* Google Analytics — replace G-MFRS83P657 with your real G-XXXXXXXXXX */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MFRS83P657" />
         <script
           dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','GA_MEASUREMENT_ID');`,
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MFRS83P657');`,
           }}
         />
       </head>
