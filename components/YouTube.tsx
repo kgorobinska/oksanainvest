@@ -25,17 +25,16 @@ export default function YouTube() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-12">
           <div>
             <p className="text-[#C9A052] text-sm font-medium tracking-[0.15em] uppercase mb-3">
-              On YouTube
+              Investor Interviews
             </p>
             <h2
               className="text-[#1C1C1E] text-4xl font-semibold leading-tight"
               style={{ fontFamily: "'Fraunces', serif" }}
             >
-              Watch the analysis
+              Minds That Move Markets
             </h2>
-            <p className="text-[#6B6B6B] mt-2 max-w-lg">
-              Video breakdowns of the market moves, AI companies, and investment
-              stories worth your time.
+            <p className="text-[#6B6B6B] mt-2">
+              Raw conversations with the investors and founders shaping the next decade.
             </p>
           </div>
           <a
