@@ -77,7 +77,7 @@ export default function Hero() {
               {[
                 { label: "Substack subscribers", value: "50+" },
                 { label: "Years in B2B consulting", value: "10" },
-                { label: "POC-to-production rate", value: "75%" },
+                { label: "Continents worked across", value: "6" },
               ].map((stat) => (
                 <div key={stat.label}>
                   <p
@@ -112,11 +112,11 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Bottom fade into cream */}
+      {/* Bottom fade into cream — use rgba(17,17,17,0) not 'transparent' to avoid grey banding */}
       <div
-        className="absolute bottom-0 left-0 right-0 h-48 pointer-events-none"
+        className="absolute bottom-0 left-0 right-0 h-32 pointer-events-none"
         style={{
-          background: "linear-gradient(to top, #F9F7F4 0%, #F9F7F4 20%, rgba(249,247,244,0.85) 40%, rgba(249,247,244,0.4) 65%, rgba(249,247,244,0.1) 85%, transparent 100%)",
+          background: "linear-gradient(to top, #F9F7F4 0%, rgba(17,17,17,0) 100%)",
         }}
       />
     </section>
