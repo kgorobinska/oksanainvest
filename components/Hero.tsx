@@ -65,17 +65,17 @@ export default function Hero() {
                 </svg>
               </a>
               <a
-                href="#articles"
+                href="#contact"
                 className="inline-flex items-center gap-2 px-7 py-3.5 border border-[#3A3A3A] text-[#D0D0D0] text-sm rounded-full hover:border-[#C9A052] hover:text-[#C9A052] transition-all"
               >
-                Read the analysis
+                Work with me
               </a>
             </div>
 
             {/* Social proof bar */}
             <div className="animate-fade-up-delay-3 mt-14 pt-8 border-t border-[#2A2A2A] flex flex-wrap gap-8">
               {[
-                { label: "Substack subscribers", value: "50+" },
+                { label: "Substack subscribers", value: "57" },
                 { label: "Years in B2B consulting", value: "10" },
                 { label: "Continents worked across", value: "6" },
               ].map((stat) => (
